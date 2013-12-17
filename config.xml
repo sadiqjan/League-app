@@ -6,10 +6,10 @@
         id        = "sites.themwl.org.MWL-Apps"
         version   = "1.0.0">
 
-    <name>MWL-Apps</name>
+    <name>MWL-league<name>
 
     <description>
-        MWL application that displays contest of web site.
+        MWL application that displays content of web site.
     </description>
 
     <author href="http://sites.themwl.org" email="it@themwl.org">
@@ -22,7 +22,6 @@
         permission on your app, which PhoneGap requires.
     -->
     <preference name="permissions"                value="none"/>
-<<<<<<< HEAD
 
     <!-- Customize your app and platform with the preference element. -->
     
@@ -77,8 +76,5 @@
         <access origin="http://themwl.org" />                    - allow any secure requests to http://phonegap.com/
         <access origin="http://sites.themwl.org" subdomains="true" />  - same as above, but including subdomains, such as http://build.phonegap.com/
     -->
-=======
-    <icon src="icon.png" />
->>>>>>> new
 
 </widget>
