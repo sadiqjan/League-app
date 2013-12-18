@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "sites.themwl.org.league-Apps"
+        id        = "sites.themwl.org.MWL-Sites"
         version   = "1.0.0">
 
-    <name>MWL-league<name>
+		<name>MWL-Sites</name>
 
     <description>
         MWL application that displays content of web site.
@@ -16,13 +15,7 @@
         IT team MWL
     </author>
 
-    <!--
-        If you do not want any permissions to be added to your app, add the
-        following tag to your config.xml; you will still have the INTERNET
-        permission on your app, which PhoneGap requires.
-    -->
-    <preference name="permissions"                value="none"/>
-
+    <preference name="permissions" value="none"/>
     
     <!-- Define app icon for each platform. -->
     <icon src="MWLicon.png" />
